@@ -44,21 +44,6 @@ If you want to run this project locally:
 3. Your QR code will be displayed instantly
 4. Click "Download QR Code" to save the QR code as a PNG file
 
-## 💻 How It Works
-
-QRly.io uses the free QR Code API from [QR Server](https://goqr.me/api/) to generate QR codes based on user input. When you click the "Generate QR Code" button, your text or URL is sent to the API, which returns a QR code image. You can then download this image with a single click.
-
-```javascript
-// Core generation function
-function generateQR() {
-    if (qrText.value.length > 0) {
-        qrImg.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(qrText.value);
-        imageBox.classList.add("show-img");
-        downloadBtn.style.display = "block";
-    }
-}
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit a Pull Request.
