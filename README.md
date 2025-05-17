@@ -15,6 +15,10 @@ QRly.io is a lightweight web application that allows you to instantly create QR 
 - Responsive design for mobile and desktop
 - No installation required - works directly in browser
 
+## Live Demo
+
+[QRly.io](https://qrly-io-six.vercel.app/)
+
 ## 🚀 Getting Started
 
 No installation required! Simply access the application through your web browser.
